@@ -1,5 +1,5 @@
-const menuEmail = document.getElementsByClassName("navbar-email");
-const desktop_menu = document.getElementsByClassName("desktop-menu");
+const menuEmail = document.querySelector(".navbar-email");
+const desktop_menu = document.querySelector(".desktop-menu");
 
 menuEmail.addEventListener("click", toggledesktopMenu);
 
