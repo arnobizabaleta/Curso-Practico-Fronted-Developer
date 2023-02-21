@@ -266,9 +266,10 @@
   margin-bottom: 0;
   color: var(--very-light-pink);
 }
-
+  
 
 @media (max-width: 640px) {
+
   .cards-container {
     grid-template-columns: repeat(auto-fill, 140px);
   }
@@ -279,10 +280,6 @@
     width: 140px;
     height: 140px;
   }
-}
-
-@media (max-width: 640px) {
-
   .navbar-left ul {
     display: none;
   }
